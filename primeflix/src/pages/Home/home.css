@@ -45,5 +45,11 @@
     color: #ffffff;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
+    transition: all 0.5s;
 }
+
+.lista-filmes a:hover {
+    color: brown;
+}
+
 
