@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './favoritos.css';
+import { Link } from 'react-router-dom';
 
 function Favorito() {
     const [filmes, setFilmes] = useState([]);
@@ -23,14 +24,19 @@ function Favorito() {
                 <p>Você não tem nenhum filme salvo.</p>
             ) : (
                 <ul>
-                    {filmes.map((filme) => (
-                        <li key={filme.id}>
-                            <span>{filme.nome}</span>
-                            <div>
-                                
-                            </div>
-                        </li>
-                    ))}
+                    {filmes.map((item) => {
+                        return (
+                            <li key={item.id}>
+                                <span>{item.title }</span>
+                                <div>
+                                    <Link to={`/filme/${item.id}`}>Ver detalhes</Link>
+                                    <button className='button-remover' onClick={() => handleRemove(item.id)}>Remover</button>
+                                </div>
+                            </li>
+                        )
+                    }
+                        
+                    )}
                 </ul>
             )}
         </div>
