@@ -1,6 +1,4 @@
-
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Filme from './pages/Filme';
@@ -9,20 +7,18 @@ import Favorito from './pages/Favoritos';
 
 import Header from './components/Header';
 
-function RoutesApp(){
-    return(
-        <BrowserRouter>
-        <Header />
+function RoutesApp() {
+    return (
+        <HashRouter> {/* Alterado para HashRouter */ }
+            <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/filme/:id" element={<Filme />} />
-
                 <Route path="/favoritos" element={<Favorito />} />
-
                 <Route path="*" element={<Error />} />
             </Routes>
-        </BrowserRouter>
-    )
+        </HashRouter>
+    );
 }
 
 export default RoutesApp;
