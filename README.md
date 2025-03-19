@@ -1,5 +1,7 @@
 # PrimeFlix
 
+![Imagem do projeto](https://i.imgur.com/OtqCLMg_d.webp?maxwidth=760&fidelity=grand)
+
 ## 📌 Sobre o Projeto
 
 O **PrimeFlix** é um aplicativo web que permite aos usuários visualizar informações sobre filmes e séries, com detalhes como sinopse, elenco e avaliações. Ele consome dados da API do TMDb para fornecer conteúdos atualizados.
@@ -19,8 +21,6 @@ O **PrimeFlix** é um aplicativo web que permite aos usuários visualizar inform
 - 📄 Detalhes de cada filme
 - ⭐ Avaliações e notas
 - 💾 Salvamento de filmes favoritos no navegador usando Local Storage
-
-  ![Exemplo de salvamento no Local Storage](https://caminho-da-imagem.com/localstorage.png)
 
 ## 📂 Como Rodar o Projeto
 
@@ -54,4 +54,4 @@ Este projeto está sob a licença MIT. Sinta-se livre para usá-lo e modificá-l
 
 ---
 
-Desenvolvido com 💙 por [João Victor](https://github.com/jvictordev7)
+Desenvolvido por [João Victor](https://github.com/jvictordev7)
