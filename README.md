@@ -1,4 +1,4 @@
-PrimeFlix
+# PrimeFlix
 
 📌 Sobre o Projeto
 
