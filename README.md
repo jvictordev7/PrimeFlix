@@ -1,8 +1,6 @@
 # PrimeFlix
 
-<p align="center">
-  <img src="https://i.imgur.com/OtqCLMg_d.webp" alt="Imagem do projeto" width="600">
-</p>
+![Imagem do projeto](https://i.imgur.com/OtqCLMg_d.webp?maxwidth=760&fidelity=grand)
 
 ## 📌 Sobre o Projeto
 
